@@ -75,6 +75,10 @@ nav {
   justify-content: space-between;
 }
 
+.ham{
+  display: none;
+}
+
 .nav-list-item {
   text-decoration: none;
   color: white;
@@ -461,6 +465,10 @@ footer {
     background-position-x: center;
   }
 
+  .ham{
+    display: block;
+  }
+  
   .nav-list {
     opacity: 0;
     pointer-events: none;
