@@ -18,6 +18,7 @@ body {
   font-size: 92.5%;
   position: relative;
   line-height: 1.2;
+  overflow-x: hidden;
 }
 
 img {
@@ -75,7 +76,7 @@ nav {
   justify-content: space-between;
 }
 
-.ham{
+.ham {
   display: none;
 }
 
@@ -465,10 +466,10 @@ footer {
     background-position-x: center;
   }
 
-  .ham{
+  .ham {
     display: block;
   }
-  
+
   .nav-list {
     opacity: 0;
     pointer-events: none;
@@ -510,11 +511,19 @@ footer {
 }
 
 @media (max-width: 29em) {
+
+  
+  .logo-header{
+    width: 40%;
+  }
+  nav {
+    justify-content: space-evenly;
+  }
   .img-sugar,
   .img-btl,
   .img-cone,
   .img-orange {
-    height: 50rem;
+    height: 30rem;
     background-position-x: center;
   }
 
