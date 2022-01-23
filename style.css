@@ -402,6 +402,17 @@ footer {
   margin: 0;
 }
 
+.credit {
+  text-align: center;
+  font-family: var(--desc-font);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.credit a {
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
 /*
  * ────────────────────────────────────────────────────────────────── V ──────────
  *   :::::: M E D I A   Q U E R I E S : :  :   :    :     :        :          :

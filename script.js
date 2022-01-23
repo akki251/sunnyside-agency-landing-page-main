@@ -4,7 +4,6 @@ const ham = document.querySelector(".ham");
 
 const list = document.querySelectorAll(".nav-list li a");
 
-const container = document.querySelector(".nav-list");
 
 ham.addEventListener("click", () => {
   nav.classList.toggle("nav-open");
