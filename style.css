@@ -530,6 +530,11 @@ footer {
 }
 
 @media (max-width: 45em) {
+
+  .logo-footer{
+    width: 30%;
+  }
+
   .hero {
     background-image: url(./images/mobile/image-header.jpg);
     height: 100vh;
