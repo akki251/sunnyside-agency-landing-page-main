@@ -475,9 +475,16 @@ footer {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+    background-color: white;
     position: absolute;
-    z-index: -23213;
+    height: 50vh;
     transform: translateY(-20%);
+    top: 15vh;
+    width: 66vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     transition: all 0.4s ease-in-out;
   }
 
@@ -497,6 +504,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.4s ease-in-out;
   }
 
   .nav-open .nav-list .active-cta {
@@ -530,8 +538,7 @@ footer {
 }
 
 @media (max-width: 45em) {
-
-  .logo-footer{
+  .logo-footer {
     width: 30%;
   }
 
